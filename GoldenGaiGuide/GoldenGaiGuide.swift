@@ -1,10 +1,3 @@
-//
-//  GoldenGaiGuideApp.swift
-//  GoldenGaiGuide
-//
-//  Created by Shuhei Kinugasa on 2025/09/21.
-//
-
 import SwiftUI
 
 @main
