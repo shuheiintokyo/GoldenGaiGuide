@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		052248882E7F838F00A2E1BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0522486D2E7F838C00A2E1BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 052248742E7F838C00A2E1BE;
+			remoteInfo = GoldenGaiGuide;
+		};
+		052248922E7F838F00A2E1BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0522486D2E7F838C00A2E1BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 052248742E7F838C00A2E1BE;
+			remoteInfo = GoldenGaiGuide;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		052248752E7F838C00A2E1BE /* GoldenGaiGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoldenGaiGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		052248872E7F838F00A2E1BE /* GoldenGaiGuideTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoldenGaiGuideTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		052248912E7F838F00A2E1BE /* GoldenGaiGuideUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoldenGaiGuideUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		052248772E7F838C00A2E1BE /* GoldenGaiGuide */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = GoldenGaiGuide;
+			sourceTree = "<group>";
+		};
+		0522488A2E7F838F00A2E1BE /* GoldenGaiGuideTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = GoldenGaiGuideTests;
+			sourceTree = "<group>";
+		};
+		052248942E7F838F00A2E1BE /* GoldenGaiGuideUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = GoldenGaiGuideUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		052248722E7F838C00A2E1BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		052248842E7F838F00A2E1BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0522488E2E7F838F00A2E1BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0522486C2E7F838C00A2E1BE = {
+			isa = PBXGroup;
+			children = (
+				052248772E7F838C00A2E1BE /* GoldenGaiGuide */,
+				0522488A2E7F838F00A2E1BE /* GoldenGaiGuideTests */,
+				052248942E7F838F00A2E1BE /* GoldenGaiGuideUITests */,
+				052248762E7F838C00A2E1BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		052248762E7F838C00A2E1BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				052248752E7F838C00A2E1BE /* GoldenGaiGuide.app */,
+				052248872E7F838F00A2E1BE /* GoldenGaiGuideTests.xctest */,
+				052248912E7F838F00A2E1BE /* GoldenGaiGuideUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		052248742E7F838C00A2E1BE /* GoldenGaiGuide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0522489B2E7F838F00A2E1BE /* Build configuration list for PBXNativeTarget "GoldenGaiGuide" */;
+			buildPhases = (
+				052248712E7F838C00A2E1BE /* Sources */,
+				052248722E7F838C00A2E1BE /* Frameworks */,
+				052248732E7F838C00A2E1BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				052248772E7F838C00A2E1BE /* GoldenGaiGuide */,
+			);
+			name = GoldenGaiGuide;
+			packageProductDependencies = (
+			);
+			productName = GoldenGaiGuide;
+			productReference = 052248752E7F838C00A2E1BE /* GoldenGaiGuide.app */;
+			productType = "com.apple.product-type.application";
+		};
+		052248862E7F838F00A2E1BE /* GoldenGaiGuideTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0522489E2E7F838F00A2E1BE /* Build configuration list for PBXNativeTarget "GoldenGaiGuideTests" */;
+			buildPhases = (
+				052248832E7F838F00A2E1BE /* Sources */,
+				052248842E7F838F00A2E1BE /* Frameworks */,
+				052248852E7F838F00A2E1BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				052248892E7F838F00A2E1BE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				0522488A2E7F838F00A2E1BE /* GoldenGaiGuideTests */,
+			);
+			name = GoldenGaiGuideTests;
+			packageProductDependencies = (
+			);
+			productName = GoldenGaiGuideTests;
+			productReference = 052248872E7F838F00A2E1BE /* GoldenGaiGuideTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		052248902E7F838F00A2E1BE /* GoldenGaiGuideUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 052248A12E7F838F00A2E1BE /* Build configuration list for PBXNativeTarget "GoldenGaiGuideUITests" */;
+			buildPhases = (
+				0522488D2E7F838F00A2E1BE /* Sources */,
+				0522488E2E7F838F00A2E1BE /* Frameworks */,
+				0522488F2E7F838F00A2E1BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				052248932E7F838F00A2E1BE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				052248942E7F838F00A2E1BE /* GoldenGaiGuideUITests */,
+			);
+			name = GoldenGaiGuideUITests;
+			packageProductDependencies = (
+			);
+			productName = GoldenGaiGuideUITests;
+			productReference = 052248912E7F838F00A2E1BE /* GoldenGaiGuideUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0522486D2E7F838C00A2E1BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					052248742E7F838C00A2E1BE = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					052248862E7F838F00A2E1BE = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 052248742E7F838C00A2E1BE;
+					};
+					052248902E7F838F00A2E1BE = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 052248742E7F838C00A2E1BE;
+					};
+				};
+			};
+			buildConfigurationList = 052248702E7F838C00A2E1BE /* Build configuration list for PBXProject "GoldenGaiGuide" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0522486C2E7F838C00A2E1BE;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 052248762E7F838C00A2E1BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				052248742E7F838C00A2E1BE /* GoldenGaiGuide */,
+				052248862E7F838F00A2E1BE /* GoldenGaiGuideTests */,
+				052248902E7F838F00A2E1BE /* GoldenGaiGuideUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		052248732E7F838C00A2E1BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		052248852E7F838F00A2E1BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0522488F2E7F838F00A2E1BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		052248712E7F838C00A2E1BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		052248832E7F838F00A2E1BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0522488D2E7F838F00A2E1BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		052248892E7F838F00A2E1BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 052248742E7F838C00A2E1BE /* GoldenGaiGuide */;
+			targetProxy = 052248882E7F838F00A2E1BE /* PBXContainerItemProxy */;
+		};
+		052248932E7F838F00A2E1BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 052248742E7F838C00A2E1BE /* GoldenGaiGuide */;
+			targetProxy = 052248922E7F838F00A2E1BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		052248992E7F838F00A2E1BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 2U6HGW7K5L;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0522489A2E7F838F00A2E1BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 2U6HGW7K5L;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0522489C2E7F838F00A2E1BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2U6HGW7K5L;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shuhei.goldengaiguide.GoldenGaiGuide;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0522489D2E7F838F00A2E1BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2U6HGW7K5L;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shuhei.goldengaiguide.GoldenGaiGuide;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0522489F2E7F838F00A2E1BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2U6HGW7K5L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shuhei.goldengaiguide.GoldenGaiGuideTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoldenGaiGuide.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GoldenGaiGuide";
+			};
+			name = Debug;
+		};
+		052248A02E7F838F00A2E1BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2U6HGW7K5L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shuhei.goldengaiguide.GoldenGaiGuideTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoldenGaiGuide.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GoldenGaiGuide";
+			};
+			name = Release;
+		};
+		052248A22E7F838F00A2E1BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2U6HGW7K5L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shuhei.goldengaiguide.GoldenGaiGuideUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GoldenGaiGuide;
+			};
+			name = Debug;
+		};
+		052248A32E7F838F00A2E1BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2U6HGW7K5L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shuhei.goldengaiguide.GoldenGaiGuideUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GoldenGaiGuide;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		052248702E7F838C00A2E1BE /* Build configuration list for PBXProject "GoldenGaiGuide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				052248992E7F838F00A2E1BE /* Debug */,
+				0522489A2E7F838F00A2E1BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0522489B2E7F838F00A2E1BE /* Build configuration list for PBXNativeTarget "GoldenGaiGuide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0522489C2E7F838F00A2E1BE /* Debug */,
+				0522489D2E7F838F00A2E1BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0522489E2E7F838F00A2E1BE /* Build configuration list for PBXNativeTarget "GoldenGaiGuideTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0522489F2E7F838F00A2E1BE /* Debug */,
+				052248A02E7F838F00A2E1BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		052248A12E7F838F00A2E1BE /* Build configuration list for PBXNativeTarget "GoldenGaiGuideUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				052248A22E7F838F00A2E1BE /* Debug */,
+				052248A32E7F838F00A2E1BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0522486D2E7F838C00A2E1BE /* Project object */;
+}
