@@ -2,117 +2,164 @@ import SwiftUI
 
 struct BarDetailView: View {
     @ObservedObject var bar: Bar
+    @Binding var showingBarDetail: Bool // Added binding to control presentation
     @Environment(\.managedObjectContext) var viewContext
-    @Environment(\.presentationMode) var presentationMode
     @State private var memoText: String = ""
     
     var body: some View {
         NavigationView {
             ScrollView {
                 VStack(alignment: .leading, spacing: 20) {
-                    // Bar Header
-                    VStack(alignment: .leading, spacing: 8) {
+                    // Bar Header with enhanced styling
+                    VStack(alignment: .leading, spacing: 12) {
                         HStack {
-                            VStack(alignment: .leading) {
+                            VStack(alignment: .leading, spacing: 6) {
                                 Text(bar.wrappedName)
                                     .font(.largeTitle)
                                     .fontWeight(.bold)
+                                    .foregroundColor(.primary)
                                 
-                                Text("Area: \(bar.wrappedArea)")
-                                    .font(.subheadline)
-                                    .foregroundColor(.secondary)
+                                HStack(spacing: 12) {
+                                    // Area badge
+                                    Text(bar.wrappedArea)
+                                        .font(.callout)
+                                        .fontWeight(.medium)
+                                        .foregroundColor(.white)
+                                        .padding(.horizontal, 12)
+                                        .padding(.vertical, 6)
+                                        .background(.blue)
+                                        .cornerRadius(12)
+                                    
+                                    // Position info
+                                    Text("Row \(bar.row), Col \(bar.column)")
+                                        .font(.caption)
+                                        .foregroundColor(.secondary)
+                                        .padding(.horizontal, 8)
+                                        .padding(.vertical, 4)
+                                        .background(.gray.opacity(0.2))
+                                        .cornerRadius(8)
+                                }
                             }
                             
                             Spacer()
                             
-                            // Status indicator
+                            // Status indicator with animation
                             Circle()
-                                .fill(bar.isVisited ? Color.green : Color.gray)
-                                .frame(width: 20, height: 20)
+                                .fill(bar.isVisited ? .green : .gray.opacity(0.4))
+                                .frame(width: 32, height: 32)
+                                .overlay(
+                                    Image(systemName: bar.isVisited ? "checkmark" : "circle")
+                                        .font(.system(size: 16, weight: .bold))
+                                        .foregroundColor(.white)
+                                )
+                                .scaleEffect(bar.isVisited ? 1.1 : 1.0)
+                                .animation(.spring(response: 0.3), value: bar.isVisited)
                         }
                         
-                        Text("Location: [GPS coordinates will be added]")
-                            .font(.subheadline)
-                            .foregroundColor(.secondary)
-                            .italic()
-                        
                         if let visitDate = bar.visitDate {
-                            Text("Visited: \(visitDate, style: .date)")
-                                .font(.subheadline)
-                                .foregroundColor(.green)
+                            HStack {
+                                Image(systemName: "calendar")
+                                    .foregroundColor(.green)
+                                Text("Visited on \(visitDate, style: .date)")
+                                    .font(.subheadline)
+                                    .foregroundColor(.green)
+                            }
                         }
                     }
                     .padding()
-                    .background(Color(.systemGray6))
-                    .cornerRadius(12)
+                    .background(.gray.opacity(0.1))
+                    .cornerRadius(16)
                     
-                    // Visited Status Toggle
-                    VStack(alignment: .leading) {
+                    // Visit Status Toggle with enhanced UI
+                    VStack(alignment: .leading, spacing: 12) {
                         Toggle("Mark as Visited", isOn: Binding(
                             get: { bar.isVisited },
                             set: { newValue in
-                                bar.isVisited = newValue
-                                if newValue {
-                                    bar.visitDate = Date()
-                                } else {
-                                    bar.visitDate = nil
+                                withAnimation(.spring()) {
+                                    bar.isVisited = newValue
+                                    if newValue {
+                                        bar.visitDate = Date()
+                                    } else {
+                                        bar.visitDate = nil
+                                    }
                                 }
                                 try? viewContext.save()
+                                
+                                // Haptic feedback
+                                let impactFeedback = UIImpactFeedbackGenerator(style: .medium)
+                                impactFeedback.impactOccurred()
                             }
                         ))
                         .font(.headline)
+                        .tint(.green)
                         
                         Text("Toggle to track your visit to this bar")
                             .font(.caption)
                             .foregroundColor(.secondary)
                     }
                     .padding()
-                    .background(Color(.systemGray6))
-                    .cornerRadius(12)
+                    .background(.gray.opacity(0.1))
+                    .cornerRadius(16)
                     
-                    // Memo Section
+                    // Enhanced Memo Section
                     VStack(alignment: .leading, spacing: 12) {
-                        Text("Personal Notes")
-                            .font(.headline)
+                        HStack {
+                            Image(systemName: "note.text")
+                                .foregroundColor(.blue)
+                            Text("Personal Notes")
+                                .font(.headline)
+                        }
                         
                         TextEditor(text: $memoText)
                             .frame(minHeight: 120)
-                            .padding(8)
-                            .background(Color(.systemGray6))
-                            .cornerRadius(8)
+                            .padding(12)
+                            .background(.gray.opacity(0.1))
+                            .cornerRadius(12)
                             .overlay(
-                                RoundedRectangle(cornerRadius: 8)
-                                    .stroke(Color.gray.opacity(0.3), lineWidth: 1)
+                                RoundedRectangle(cornerRadius: 12)
+                                    .stroke(.gray.opacity(0.3), lineWidth: 1)
                             )
                         
-                        Text("Add your thoughts, experiences, or reminders about this bar")
+                        Text("Share your thoughts, experiences, or recommendations about this bar")
                             .font(.caption)
                             .foregroundColor(.secondary)
                     }
                     .padding()
-                    .background(Color(.systemGray6))
-                    .cornerRadius(12)
+                    .background(.gray.opacity(0.1))
+                    .cornerRadius(16)
                     
                     Spacer(minLength: 50)
                 }
                 .padding()
             }
+            .navigationTitle("Bar Details")
             .navigationBarTitleDisplayMode(.inline)
-            .navigationBarItems(
-                leading: Button("Cancel") {
-                    presentationMode.wrappedValue.dismiss()
-                },
-                trailing: Button("Save") {
-                    bar.memo = memoText
-                    do {
-                        try viewContext.save()
-                        presentationMode.wrappedValue.dismiss()
-                    } catch {
-                        print("Error saving memo: \(error)")
+            .toolbar {
+                ToolbarItem(placement: .navigationBarLeading) {
+                    Button("Cancel") {
+                        showingBarDetail = false
                     }
+                    .foregroundColor(.red)
                 }
-                .fontWeight(.semibold)
-            )
+                
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    Button("Save") {
+                        bar.memo = memoText
+                        do {
+                            try viewContext.save()
+                            showingBarDetail = false
+                            
+                            // Success haptic
+                            let notificationFeedback = UINotificationFeedbackGenerator()
+                            notificationFeedback.notificationOccurred(.success)
+                        } catch {
+                            print("Error saving memo: \(error)")
+                        }
+                    }
+                    .fontWeight(.semibold)
+                    .foregroundColor(.blue)
+                }
+            }
         }
         .onAppear {
             memoText = bar.wrappedMemo

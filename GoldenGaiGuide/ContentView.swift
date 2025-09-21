@@ -29,8 +29,9 @@ struct ContentView: View {
                 .tag(2)
         }
         .sheet(isPresented: $showingBarDetail) {
+            // Fixed: Ensure selectedBar is properly passed
             if let bar = selectedBar {
-                BarDetailView(bar: bar)
+                BarDetailView(bar: bar, showingBarDetail: $showingBarDetail)
             }
         }
     }

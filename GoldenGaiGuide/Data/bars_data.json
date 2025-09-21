@@ -1,0 +1,609 @@
+{
+  "golden_gai_map": {
+    "map_info": {
+      "title": "新宿三光商店街・ゴールデン街　全店舗配置図 2024",
+      "copyright": "©2019新宿三光商店街振興組合",
+      "grid_size": {
+        "rows": 20,
+        "columns": 25
+      }
+    },
+    "areas": [
+      {
+        "name": "ゴールデン街（G1）",
+        "code": "G1",
+        "color": "#2E5BBA",
+        "start_row": 0,
+        "start_column": 0
+      },
+      {
+        "name": "ゴールデン街（G2）",
+        "code": "G2",
+        "color": "#BA5B2E",
+        "start_row": 0,
+        "start_column": 12
+      },
+      {
+        "name": "あかるい花園1番街",
+        "code": "花園1",
+        "color": "#8E2EBA",
+        "start_row": 8,
+        "start_column": 0
+      },
+      {
+        "name": "あかるい花園3番街",
+        "code": "花園3",
+        "color": "#BA2E8E",
+        "start_row": 12,
+        "start_column": 8
+      },
+      {
+        "name": "まねき通り",
+        "code": "まねき通り",
+        "color": "#BABA2E",
+        "start_row": 15,
+        "start_column": 0
+      }
+    ],
+    "bars": [
+      {
+        "id": "001",
+        "name": "花の園",
+        "area": "G1",
+        "floor": "1F",
+        "row": 0,
+        "column": 0,
+        "type": "bar"
+      },
+      {
+        "id": "002",
+        "name": "Hecate",
+        "area": "G1",
+        "floor": "1F",
+        "row": 0,
+        "column": 1,
+        "type": "bar"
+      },
+      {
+        "id": "003",
+        "name": "zory",
+        "area": "G1",
+        "floor": "1F",
+        "row": 0,
+        "column": 2,
+        "type": "bar"
+      },
+      {
+        "id": "004",
+        "name": "ポニー",
+        "area": "G1",
+        "floor": "1F",
+        "row": 0,
+        "column": 3,
+        "type": "bar"
+      },
+      {
+        "id": "005",
+        "name": "Bon's",
+        "area": "G1",
+        "floor": "1F",
+        "row": 0,
+        "column": 4,
+        "type": "bar"
+      },
+      {
+        "id": "006",
+        "name": "久",
+        "area": "G1",
+        "floor": "1F",
+        "row": 0,
+        "column": 5,
+        "type": "bar"
+      },
+      {
+        "id": "007",
+        "name": "Decoy",
+        "area": "G1",
+        "floor": "1F",
+        "row": 1,
+        "column": 0,
+        "type": "bar"
+      },
+      {
+        "id": "008",
+        "name": "パパズ",
+        "area": "G1",
+        "floor": "1F",
+        "row": 1,
+        "column": 1,
+        "type": "bar"
+      },
+      {
+        "id": "009",
+        "name": "ドリーム",
+        "area": "G1",
+        "floor": "1F",
+        "row": 1,
+        "column": 2,
+        "type": "bar"
+      },
+      {
+        "id": "010",
+        "name": "ROCKET",
+        "area": "G1",
+        "floor": "1F",
+        "row": 1,
+        "column": 3,
+        "type": "bar"
+      },
+      {
+        "id": "011",
+        "name": "Hungry Humphrey",
+        "area": "G1",
+        "floor": "1F",
+        "row": 1,
+        "column": 4,
+        "type": "bar"
+      },
+      {
+        "id": "012",
+        "name": "がまぐち",
+        "area": "G1",
+        "floor": "1F",
+        "row": 2,
+        "column": 0,
+        "type": "bar"
+      },
+      {
+        "id": "013",
+        "name": "水の木",
+        "area": "G1",
+        "floor": "1F",
+        "row": 2,
+        "column": 1,
+        "type": "bar"
+      },
+      {
+        "id": "014",
+        "name": "Diamond bar",
+        "area": "G1",
+        "floor": "1F",
+        "row": 2,
+        "column": 2,
+        "type": "bar"
+      },
+      {
+        "id": "015",
+        "name": "三坪±",
+        "area": "G1",
+        "floor": "1F",
+        "row": 2,
+        "column": 3,
+        "type": "bar"
+      },
+      {
+        "id": "016",
+        "name": "エクリプス",
+        "area": "G1",
+        "floor": "1F",
+        "row": 2,
+        "column": 4,
+        "type": "bar"
+      },
+      {
+        "id": "017",
+        "name": "夢二",
+        "area": "G1",
+        "floor": "1F",
+        "row": 3,
+        "column": 0,
+        "type": "bar"
+      },
+      {
+        "id": "018",
+        "name": "TWIN",
+        "area": "G1",
+        "floor": "1F",
+        "row": 3,
+        "column": 1,
+        "type": "bar"
+      },
+      {
+        "id": "019",
+        "name": "突風",
+        "area": "G1",
+        "floor": "1F",
+        "row": 3,
+        "column": 2,
+        "type": "bar"
+      },
+      {
+        "id": "020",
+        "name": "4'Cs BAR",
+        "area": "G1",
+        "floor": "1F",
+        "row": 3,
+        "column": 3,
+        "type": "bar"
+      },
+      {
+        "id": "021",
+        "name": "ROSSO",
+        "area": "G1",
+        "floor": "1F",
+        "row": 3,
+        "column": 4,
+        "type": "bar"
+      },
+      {
+        "id": "022",
+        "name": "しん亭こう路",
+        "area": "G1",
+        "floor": "1F",
+        "row": 4,
+        "column": 0,
+        "type": "bar"
+      },
+      {
+        "id": "023",
+        "name": "BAR UISCE",
+        "area": "G1",
+        "floor": "1F",
+        "row": 4,
+        "column": 1,
+        "type": "bar"
+      },
+      {
+        "id": "024",
+        "name": "プッシーフット",
+        "area": "G1",
+        "floor": "1F",
+        "row": 4,
+        "column": 2,
+        "type": "bar"
+      },
+      {
+        "id": "025",
+        "name": "SUZU",
+        "area": "G1",
+        "floor": "1F",
+        "row": 4,
+        "column": 3,
+        "type": "bar"
+      },
+      {
+        "id": "026",
+        "name": "BAR",
+        "area": "G1",
+        "floor": "1F",
+        "row": 4,
+        "column": 4,
+        "type": "bar"
+      },
+      {
+        "id": "027",
+        "name": "図書室",
+        "area": "G1",
+        "floor": "2F",
+        "row": 5,
+        "column": 0,
+        "type": "bar"
+      },
+      {
+        "id": "028",
+        "name": "トレトレ",
+        "area": "G1",
+        "floor": "2F",
+        "row": 5,
+        "column": 1,
+        "type": "bar"
+      },
+      {
+        "id": "029",
+        "name": "Barブラン",
+        "area": "G1",
+        "floor": "2F",
+        "row": 5,
+        "column": 2,
+        "type": "bar"
+      },
+      {
+        "id": "030",
+        "name": "BAR たまや",
+        "area": "G1",
+        "floor": "2F",
+        "row": 5,
+        "column": 3,
+        "type": "bar"
+      },
+      {
+        "id": "031",
+        "name": "小鳥",
+        "area": "G1",
+        "floor": "2F",
+        "row": 5,
+        "column": 4,
+        "type": "bar"
+      },
+      {
+        "id": "100",
+        "name": "チャンピオン",
+        "area": "G2",
+        "floor": "1F",
+        "row": 0,
+        "column": 12,
+        "type": "bar"
+      },
+      {
+        "id": "101",
+        "name": "ami",
+        "area": "G2",
+        "floor": "1F",
+        "row": 0,
+        "column": 13,
+        "type": "bar"
+      },
+      {
+        "id": "102",
+        "name": "月に吠える",
+        "area": "G2",
+        "floor": "1F",
+        "row": 0,
+        "column": 14,
+        "type": "bar"
+      },
+      {
+        "id": "103",
+        "name": "Peg",
+        "area": "G2",
+        "floor": "1F",
+        "row": 0,
+        "column": 15,
+        "type": "bar"
+      },
+      {
+        "id": "104",
+        "name": "小鉄",
+        "area": "G2",
+        "floor": "1F",
+        "row": 0,
+        "column": 16,
+        "type": "bar"
+      },
+      {
+        "id": "105",
+        "name": "anchor",
+        "area": "G2",
+        "floor": "1F",
+        "row": 0,
+        "column": 17,
+        "type": "bar"
+      },
+      {
+        "id": "106",
+        "name": "UP OUT",
+        "area": "G2",
+        "floor": "1F",
+        "row": 0,
+        "column": 18,
+        "type": "bar"
+      },
+      {
+        "id": "107",
+        "name": "ANIME HOLIC",
+        "area": "G2",
+        "floor": "2F",
+        "row": 1,
+        "column": 12,
+        "type": "bar"
+      },
+      {
+        "id": "108",
+        "name": "シラムレン",
+        "area": "G2",
+        "floor": "2F",
+        "row": 1,
+        "column": 13,
+        "type": "bar"
+      },
+      {
+        "id": "109",
+        "name": "十月",
+        "area": "G2",
+        "floor": "2F",
+        "row": 1,
+        "column": 14,
+        "type": "bar"
+      },
+      {
+        "id": "110",
+        "name": "酔２",
+        "area": "G2",
+        "floor": "2F",
+        "row": 1,
+        "column": 15,
+        "type": "bar"
+      },
+      {
+        "id": "111",
+        "name": "RENO",
+        "area": "G2",
+        "floor": "2F",
+        "row": 1,
+        "column": 16,
+        "type": "bar"
+      },
+      {
+        "id": "200",
+        "name": "OIL",
+        "area": "花園1",
+        "floor": "1F",
+        "row": 8,
+        "column": 0,
+        "type": "bar"
+      },
+      {
+        "id": "201",
+        "name": "気仙坂",
+        "area": "花園1",
+        "floor": "1F",
+        "row": 8,
+        "column": 1,
+        "type": "bar"
+      },
+      {
+        "id": "202",
+        "name": "虎の穴",
+        "area": "花園1",
+        "floor": "1F",
+        "row": 8,
+        "column": 2,
+        "type": "bar"
+      },
+      {
+        "id": "203",
+        "name": "しの",
+        "area": "花園1",
+        "floor": "1F",
+        "row": 8,
+        "column": 3,
+        "type": "bar"
+      },
+      {
+        "id": "204",
+        "name": "うるわし",
+        "area": "花園1",
+        "floor": "1F",
+        "row": 8,
+        "column": 4,
+        "type": "bar"
+      },
+      {
+        "id": "205",
+        "name": "久絽",
+        "area": "花園1",
+        "floor": "1F",
+        "row": 8,
+        "column": 5,
+        "type": "bar"
+      },
+      {
+        "id": "300",
+        "name": "洗濯船",
+        "area": "まねき通り",
+        "floor": "1F",
+        "row": 15,
+        "column": 0,
+        "type": "bar"
+      },
+      {
+        "id": "301",
+        "name": "BAR キネマ倶楽部",
+        "area": "まねき通り",
+        "floor": "1F",
+        "row": 15,
+        "column": 1,
+        "type": "bar"
+      },
+      {
+        "id": "302",
+        "name": "5 GALLONS",
+        "area": "まねき通り",
+        "floor": "1F",
+        "row": 15,
+        "column": 2,
+        "type": "bar"
+      },
+      {
+        "id": "303",
+        "name": "ばるぼら屋",
+        "area": "まねき通り",
+        "floor": "1F",
+        "row": 15,
+        "column": 3,
+        "type": "bar"
+      },
+      {
+        "id": "304",
+        "name": "デスマッチ",
+        "area": "まねき通り",
+        "floor": "1F",
+        "row": 15,
+        "column": 4,
+        "type": "bar"
+      },
+      {
+        "id": "305",
+        "name": "BAR るつぼ",
+        "area": "まねき通り",
+        "floor": "1F",
+        "row": 15,
+        "column": 5,
+        "type": "bar"
+      },
+      {
+        "id": "306",
+        "name": "シャドウ",
+        "area": "まねき通り",
+        "floor": "1F",
+        "row": 15,
+        "column": 6,
+        "type": "bar"
+      },
+      {
+        "id": "307",
+        "name": "Bar K",
+        "area": "まねき通り",
+        "floor": "1F",
+        "row": 15,
+        "column": 7,
+        "type": "bar"
+      },
+      {
+        "id": "308",
+        "name": "BAR滝",
+        "area": "まねき通り",
+        "floor": "2F",
+        "row": 16,
+        "column": 0,
+        "type": "bar"
+      },
+      {
+        "id": "309",
+        "name": "ジュテ",
+        "area": "まねき通り",
+        "floor": "2F",
+        "row": 16,
+        "column": 1,
+        "type": "bar"
+      },
+      {
+        "id": "310",
+        "name": "The PearL",
+        "area": "まねき通り",
+        "floor": "2F",
+        "row": 16,
+        "column": 2,
+        "type": "bar"
+      },
+      {
+        "id": "311",
+        "name": "WHO",
+        "area": "まねき通り",
+        "floor": "2F",
+        "row": 16,
+        "column": 3,
+        "type": "bar"
+      },
+      {
+        "id": "312",
+        "name": "たちばな",
+        "area": "まねき通り",
+        "floor": "2F",
+        "row": 16,
+        "column": 4,
+        "type": "bar"
+      }
+    ],
+  }
+}
